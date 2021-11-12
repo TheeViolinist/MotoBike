@@ -68,14 +68,14 @@ void setup(){
 
 /*  Begin Renata  */
 void SetaDireita(unsigned long int tempo, unsigned long int *comparacao){
-  if(tempo - *comparacao == 200){
+  if(tempo - *comparacao >= 200){
       digitalWrite(SETA_DIREITA, !digitalRead(SETA_DIREITA));
     *comparacao = millis();
   }
 }
 
 void SetaEsquerda(unsigned long int tempo, unsigned long int *comparacao){
-  if(tempo - *comparacao == 200){
+  if(tempo - *comparacao >= 200){
       digitalWrite(SETA_ESQUERDA, !digitalRead(SETA_ESQUERDA));
     *comparacao = millis();
   }
