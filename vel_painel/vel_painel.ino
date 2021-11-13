@@ -7,6 +7,8 @@
 
 #include <LiquidCrystal.h> // biblioteca do painel
 
+#define pot A5 // porta de entrada do potenciometro
+
 //Comando cria a comunicação com nome bluetooth
 //E atribui os pinos 10 e 11 a ela.O primeiro pino se refere ao RX do arduíno
 // E o segundo ao TX do arduino
@@ -28,6 +30,9 @@ bool verificado = 0; // variável irá verificar se algo foi enviado via bluetoo
 char b1; //caractere responsável por armazenar os dados recebidos
 String command = "";
 String vel;
+int leitura;
+int conversao;
+int anterior = 0;
 
 
 
@@ -94,52 +99,33 @@ void MudaVelocidade()
     }
     
   }
+  
 
-  if(Serial.available() > 0)
-  {
-    /*Esse codigo abaixo é utilizado somente para simulação  */
-    /*Como o thinkercard não deixa enviar informações via bluetooth de um outro dispositivo*/
-    /*Vamos receber informações do bluetooth via monitor serial e verificar se esse valor está sendo enviado ou não */
-    /*Caso ele seja enviado, vamos mostrar a informação que foi enviada no lcd  */
-    /*Assim mostramos que a conexão bluetooth é válida e os valores da velocidade estão corretos  */
-    
-    vel = Serial.readStringUntil('\n'); /*  Recebe a velocidade do monitor serial */
-    verificado = bluetooth.write(Serial.read());  /*  Verifica se o valor foi enviado corretamente e envia via bluetooth, retorna 1 caso sim e 0 caso não*/
-    
-    
-    if(verificado)
-    {
-      if(vel.compareTo("Seta Direita") != 0 and vel.compareTo("Seta Esquerda") != 0)
-      {
-           /*  Caso não tenha nada no buffer */
-          /*  Não limparemos  */
-          /*  Se tiver algo, devemos limpar a tela e imprimir a nova imagem */
-          if(vel != NULL)
-          {
-             lcd.clear();
-          }
-          /*  Setamos a posição para printar a proxima string */
-          lcd.setCursor(4,0);
-          lcd.print("Velocidade");
-          /*  Setamos a posição para printar a proxima string */
-          lcd.setCursor(8,1);
-          lcd.print(vel);
-          lcd.setCursor(11,1);
-          lcd.print("km/h");
-      }
-      
-    }
-
-     
-    
-    
-  }
   
 }
 
 void loop() {
 
   temporizador();
+
+  
+  leitura = analogRead(pot);              /*  Realizando a leitura do potenciômetro */
+  conversao = map(leitura,0,1023,0,400);  /*  Convertendo os valores de entrada do analógico que são de 0 a 1023 para 0 até 400 */
+  
+  if(conversao != anterior) /*  Toda vez que eu mudar de velocidade, limpe a tela e troque a velocidade anterior  */
+  {
+    lcd.clear();
+    anterior = conversao;
+  }
+  
+  lcd.setCursor(4,0);
+  lcd.print("Velocidade");
+  /*  Setamos a posição para printar a proxima string */
+  lcd.setCursor(8,1);
+  lcd.print(anterior);
+  lcd.setCursor(11,1);
+  lcd.print("km/h");
+  
   
 
 }
