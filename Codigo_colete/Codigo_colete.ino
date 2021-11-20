@@ -115,9 +115,7 @@ void loop(){
   /*  End Renata  */
 
   /* Begin Marllon  */
-    switch (mensagem)
-{
- case 'A':
+    if(mensagem == "A"){
    pixels.setPixelColor(a, pixels.Color(255,0,0));
    pixels.show();   
    
@@ -163,9 +161,9 @@ void loop(){
    pixels.setPixelColor(o, pixels.Color(255,0,0));
    pixels.show();
 
-   break;
+    }
 
-   case 'a':
+  if(mensagem == "a"){
       
    pixels.setPixelColor(a, pixels.Color(0,0,0));
    pixels.show();   
@@ -211,8 +209,7 @@ void loop(){
 
    pixels.setPixelColor(o, pixels.Color(0,0,0));
    pixels.show();
-   
-   break;
+  
 }
 
   
