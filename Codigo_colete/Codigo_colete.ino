@@ -32,6 +32,9 @@ bool estadoDaSetaEsquerda = 0;
 bool estadoDaSetaDireita = 0;
 /* End Renata */
 
+int auxiliarDeteccao = 1;
+int tempoDeteccao;
+
 /*  Begin Marllon  */
 char B;
  
@@ -87,6 +90,10 @@ void loop(){
   /*  Begin Renata  */
   tempoAtual = millis();
   
+  if(tempoAtual - 1000 >= tempoDeteccao){
+    auxiliarDeteccao = 1;
+  }
+  
   if(Serial.available() > 0){
     mensagem = Serial.readStringUntil('\n');
     
@@ -115,7 +122,11 @@ void loop(){
   /*  End Renata  */
 
   /* Begin Marllon  */
-    if(mensagem == "A"){
+    
+  if(mensagem == "A" && auxiliarDeteccao){
+    auxiliarDeteccao = 0;
+   tempoDeteccao = tempoAtual;
+    
    pixels.setPixelColor(a, pixels.Color(255,0,0));
    pixels.show();   
    
@@ -163,8 +174,11 @@ void loop(){
 
     }
 
-  if(mensagem == "a"){
-      
+  if(mensagem == "a" && auxiliarDeteccao){
+    auxiliarDeteccao = 0;
+   tempoDeteccao = tempoAtual;  
+    
+    
    pixels.setPixelColor(a, pixels.Color(0,0,0));
    pixels.show();   
    

@@ -56,27 +56,57 @@ void loop(){
   //As linhas de código abaixo são para quando os botões 
   //acionados, todos os leds conectados ao circuito acendam
  // independentemente do botão ser o direito ou esquerdo, todos os leds ficarão acessos!
-   digitalWrite(LED, estadoA); 
-   digitalWrite(LED, estadoB);
-   digitalWrite(BLED, estadoA); 
-   digitalWrite(BLED, estadoB);
-   digitalWrite(tLED, estadoA);
-   digitalWrite(tLED, estadoB); 
-   digitalWrite(qLED, estadoA); 
-   digitalWrite(qLED, estadoB); 
-   digitalWrite(cLED, estadoA); 
-   digitalWrite(cLED, estadoB);
+    if(estadoA){
+  digitalWrite(LED,HIGH);
   
+  digitalWrite( BLED,HIGH);
   
+  digitalWrite(tLED,HIGH);
+
+  digitalWrite(qLED,HIGH);
+
+  digitalWrite(cLED,HIGH);
+  }else
+  digitalWrite(LED,LOW);
+  
+  digitalWrite(BLED,LOW);
+  
+  digitalWrite(tLED,LOW);
+
+  digitalWrite(qLED,LOW);
+
+  digitalWrite(cLED,LOW);
+   
+  if(estadoB){
+  digitalWrite(LED,HIGH);
+  
+  digitalWrite( BLED,HIGH);
+  
+  digitalWrite(tLED,HIGH);
+
+  digitalWrite(qLED,HIGH);
+
+  digitalWrite(cLED,HIGH);
+  }else
+  digitalWrite(LED,LOW);
+  
+  digitalWrite(BLED,LOW);
+  
+  digitalWrite(tLED,LOW);
+
+  digitalWrite(qLED,LOW);
+
+  digitalWrite(cLED,LOW);
+
   int estadoBotao = digitalRead(BOTAO);
   switch (estadoBotao)
 {
    case HIGH:
-    Serial.println("A");
+    Serial.println("A\n");
    break;
 
    case LOW:
-      Serial.println("a");
+      Serial.println("a\n");
    break;
 
    default:
