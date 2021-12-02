@@ -13,7 +13,7 @@
 <p><div align ="center">
 <img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg"width = "100x20px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "100x20"/>
 </div><p>
-![](https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg=100x20)[](https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg=100x20)
+![](https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg=100x20)![](https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg=100x20)
 
 
 
