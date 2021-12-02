@@ -49,7 +49,7 @@
 
 ```
 # Como executar o aplicativo
-1. Baixe o apk em https://gi11thub.com/TheeViolinist/MotoBike/blob/master/GPS_velocidade.apk
+1. Baixe o apk em https://github.com/TheeViolinist/MotoBike/blob/master/GPS_velocidade.apk
 2. Ligue o bluetooth
 3. Conecte ao arduino do monitor
 # Autores
