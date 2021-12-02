@@ -42,7 +42,7 @@
 * Pré-Requisito: C++ e eletrônica
 
 ```bash
-	#clonar repositíro
+	#clonar repositório
 	git clone https://github.com/TheeViolinist/MotoBike
 	#Copie os códigos das pastas codigo_colete, codigo_bike e codigo_vel
 	#E coloque tudo no thinkercard nos seus respectivos arduinos
@@ -59,6 +59,6 @@
 * Leandro Lucas de Oliveira Bandeira
 * Marllon Deucles de Moura Ramos
 * Iago Roberto Ferreira de Melo Cavalcante
-* 
+* Renata Avelino de Andrade
 
 
