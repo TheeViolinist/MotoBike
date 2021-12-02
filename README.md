@@ -59,7 +59,7 @@
 2. Ligue o bluetooth
 3. Conecte ao arduino do monitor
 # Autores
-* Monitor:
+* Monitor: Victor Emmanuel Moreira Leite Mororó
 * Bruno Chianca Heim Teotonio
 * Leandeson Pinheiro Santos de Araújo
 * Leandro Lucas de Oliveira Bandeira
