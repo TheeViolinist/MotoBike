@@ -23,7 +23,7 @@
 * ThinkerCard
 * Arduino IDE e Visual Stdio Code
 * Kodular
-* 
+* SketchUp 2021
 ## Projeto no Arduino 
 ### Back End
 * Linguagem C++
@@ -32,4 +32,25 @@
 * Aplicativo Kodular
 ### Back End
 * Java
+
+# Como executar o projeto
+* Entre no site e copie a aplicação https://www.tinkercad.com/things/8Yx4k0XUsEc
+* Pré-Requisito: C++ e eletrônica
+
+```bash
+	#clonar repositíro
+	git clone https://github.com/TheeViolinist/MotoBike
+	#Copie os códigos das pastas codigo_colete, codigo_bike e codigo_vel
+	#E coloque tudo no thinkercard
+
+```
+# Autores
+* Monitor:
+* Bruno Chianca Heim Teotonio
+* Leandeson Pinheiro Santos de Araújo
+* Leandro Lucas de Oliveira Bandeira
+* Marllon Deucles de Moura Ramos
+* Iago Roberto Ferreira de Melo Cavalcante
+* 
+
 
