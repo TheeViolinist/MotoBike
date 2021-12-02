@@ -21,7 +21,7 @@
 
 ## Programas Utilizados
 * ThinkerCard
-* Arduino IDE e Visual Stdio Code
+* Arduino IDE e Visual Studio Code
 * Kodular
 * SketchUp 2021
 ## Projeto no Arduino 
