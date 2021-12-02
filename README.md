@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-<p>O projeto foi criado como trabalho final para a turma de Introdução à Engenharia da Computação, 1º período, a sua esquematização está no thinkercard presente no link:  https://www.tinkercad.com/things/8Yx4k0XUsEc<p>
+<p>O projeto foi criado como trabalho final para a turma de Introdução à Engenharia da Computação, 1º período, a sua esquematização está no thinkercad presente no link:  https://www.tinkercad.com/things/8Yx4k0XUsEc<p>
 
 <p>A aplicação se baseia em um projeto direcionado aos ciclistas, os quais sofrem riscos ao pedalar nas ruas sem segurança. Tendo isso em mente, é necessário criar uma forma de segurança que foi pensada como várias funcionalidades que funcionam em conjunto com a bicicleta, e um colete apropriado para o ciclista.<p> 
 <p>Logo, foram criados sistemas de freio, setas, faróis e detector de presença, todos com comunicação via led com o colete, além disso, possui um painel de velocidade, feito a partir de uma conexão via bluetooth com um aplicativo de celular.<p>
@@ -24,7 +24,7 @@
 </div><p>
 
 ## Programas Utilizados
-* ThinkerCard
+* ThinkerCad
 * Arduino IDE e Visual Studio Code
 * Kodular
 * SketchUp 2021
@@ -48,6 +48,10 @@
 	#E coloque tudo no thinkercard nos seus respectivos arduinos
 
 ```
+# Como executar o aplicativo
+1. Baixe o apk em https://gi11thub.com/TheeViolinist/MotoBike/blob/master/GPS_velocidade.apk
+2. Ligue o bluetooth
+3. Conecte ao arduino do monitor.
 # Autores
 * Monitor:
 * Bruno Chianca Heim Teotonio
