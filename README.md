@@ -11,12 +11,10 @@
 
 ## Design do colete e da bicicleta
 <p><div align ="center">
-<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg"width = "200px"/>
+<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg"width = "100x20px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "100x20"/>
 </div><p>
 
-<p><div align= "center">
-<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "100x20"/>
-</div><p>
+
 
 ## Design do aplicativo
 <p> <div align = "center">
