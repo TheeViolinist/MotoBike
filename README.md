@@ -11,7 +11,7 @@
 
 ## Design do colete e da bicicleta
 <p><div align ="left">
-<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg"width = "100x20px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "100x20"/>
+<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg" height = "200px" width = "200px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"height = "200px" width = "200px"/>
 </div><p>
 
 
@@ -19,7 +19,7 @@
 
 ## Design do aplicativo
 <p> <div align = "center">
-<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/vel_interface.jpeg" width = "100x20"/>
+<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/vel_interface.jpeg"height = "200px" width = "200px"/>
 </div><p>
 
 ## Programas Utilizados
