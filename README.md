@@ -11,7 +11,7 @@
 
 ## Design do colete e da bicicleta
 <p><div align ="center">
-<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg" height = "350x" width = "200px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"height = "250px" width = "200px"/>
+<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg" height = "350x" width = "200px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"height = "350px" width = "200px"/>
 </div><p>
 
 
