@@ -14,4 +14,22 @@
 <img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "200px"/>
 </div><p>
 
+## Design do aplicativo
+<p> <div align = "center">
+<img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/vel_interface.jpeg" width = "200px"/>
+</div><p>
+
+##Programas Utilizados
+* ThinkerCard
+* Arduino IDE e Visual Stdio Code
+* Kodular
+* 
+##Projeto no Arduino 
+###Back End
+* Linguagem C++
+##Aplicativo
+###Front End
+* Aplicativo Kodular
+###Back End
+* Java
 
