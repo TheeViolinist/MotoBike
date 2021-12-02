@@ -6,7 +6,7 @@
 <p>Logo, foram criados sistemas de freio, setas, faróis, todos com comunicação via led com o colete, além disso, possui um painel de velocidade, feito a partir de uma conexão via bluetooth com um aplicativo de celular.<p>
 
 ## Design do colete e da bicicleta
-<dev align ="center">
+<div align ="center">
 <img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/colete.jpeg"width = "200px"/><img src = "https://github.com/TheeViolinist/MotoBike/blob/master/src/assets/to_readme/bicicleta.jpeg"width = "200px"/>
 </div>
 
